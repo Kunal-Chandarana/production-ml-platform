@@ -1,8 +1,8 @@
-# 🏭 Production ML Platform with Triton Inference Server
+# Production ML Platform with Triton Inference Server
 
 A comprehensive, enterprise-grade machine learning inference platform demonstrating production patterns with NVIDIA Triton Inference Server.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project showcases a **complete production ML pipeline** for content moderation, featuring:
 
@@ -12,7 +12,7 @@ This project showcases a **complete production ML pipeline** for content moderat
 - **Enterprise Features** - A/B testing, canary deployments, observability
 - **Client Application** - React frontend with FastAPI backend
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────────────────────┐
@@ -33,7 +33,7 @@ This project showcases a **complete production ML pipeline** for content moderat
                                       └─────────────────────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 production-ml-platform/
@@ -61,7 +61,7 @@ production-ml-platform/
 └── 📂 docs/                     # Documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker & Docker Compose
@@ -128,33 +128,33 @@ git commit -m "feat: add production ML platform"
 git push origin main
 ```
 
-## 🎯 Key Features Demonstrated
+## Key Features Demonstrated
 
-### 🔧 Production Model Management
+### Production Model Management
 - **EXPLICIT Mode Control** - Manual model loading/unloading
 - **A/B Testing** - Traffic splitting between model versions  
 - **Canary Deployments** - Gradual rollout with monitoring
 - **Zero-Downtime Updates** - Rolling updates without service interruption
 
-### ⚡ Performance Optimization
+### Performance Optimization
 - **Dynamic Batching** - Automatic request batching for throughput
 - **Multi-Instance Scaling** - Concurrent model execution
 - **GPU Optimization** - Efficient memory management
 - **Response Caching** - Caching for identical requests
 
-### 🏗️ Enterprise Deployment
+### Enterprise Deployment
 - **Kubernetes Native** - Helm charts, auto-scaling, monitoring
 - **Multi-Environment** - Staging and production configurations
 - **Security** - RBAC, network policies, secrets management
 - **Observability** - Prometheus metrics, distributed tracing
 
-### 🔄 DevOps Integration
+### DevOps Integration
 - **GitOps Workflow** - Infrastructure and application as code
 - **Automated Testing** - Model validation, security scanning, performance tests
 - **Progressive Deployment** - Canary → Full rollout with automated rollback
 - **Monitoring & Alerting** - Real-time metrics and notifications
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 ### Target SLAs
 - **Latency**: P95 < 150ms for ensemble inference
@@ -168,7 +168,7 @@ git push origin main
 - GPU memory optimization with TensorRT
 - Request queuing with 100-500μs delays
 
-## 🛡️ Security Features
+## Security Features
 
 - **Authentication** - JWT-based API authentication
 - **Network Security** - Pod-to-pod communication policies
@@ -176,7 +176,7 @@ git push origin main
 - **Audit Logging** - Complete request/response logging
 - **Security Scanning** - Trivy vulnerability scanning in CI/CD
 
-## 📈 Monitoring & Observability
+## Monitoring & Observability
 
 ### Metrics Collected
 - **Model Performance** - Inference latency, throughput, accuracy
@@ -190,7 +190,7 @@ git push origin main
 - **SLA Dashboard** - Service level agreement tracking
 - **Cost Dashboard** - Resource usage and optimization
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 ### Test Types
 - **Unit Tests** - Model configuration validation
@@ -204,7 +204,7 @@ git push origin main
 - Performance regression detection
 - Security compliance validation
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 By building this project, you've mastered:
 
@@ -232,7 +232,7 @@ By building this project, you've mastered:
 - Performance optimization
 - Production troubleshooting
 
-## 🔄 Next Steps
+## Next Steps
 
 ### Immediate Enhancements
 1. **Add Real Models** - Replace placeholder models with actual ONNX/TensorRT models
@@ -252,7 +252,7 @@ By building this project, you've mastered:
 3. **Security Hardening** - Penetration testing and hardening
 4. **Documentation** - Runbooks and troubleshooting guides
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -260,11 +260,11 @@ By building this project, you've mastered:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **NVIDIA Triton Inference Server** - The foundation of this platform
 - **Kubernetes Community** - For excellent orchestration tools
